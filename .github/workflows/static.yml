@@ -35,6 +35,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./.vuepress/dist  
+          publish_dir: ./docs/.vuepress/dist  
           # publish_branch: gh-pages         # 可改名，默认 gh-pages
           # cname: www.example.com           # 有自定义域名就填
